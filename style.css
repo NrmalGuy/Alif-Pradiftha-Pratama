@@ -74,7 +74,7 @@ tr:first-child {
 }
 
 .primary-500-bg {
-    background-color: #b78057 !important;
+    background-color: #ffb483 !important;
 }
 
 
@@ -129,3 +129,6 @@ tr:first-child {
     padding: 10px;
 }
 
+.jumbotron {
+    background-attachment: fixed;
+  }
