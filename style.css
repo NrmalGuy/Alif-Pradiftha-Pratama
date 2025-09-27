@@ -15,7 +15,15 @@ body {
 
 h1,
 h2,
-h3,
+body {
+  font-family: "SUSE Mono", monospace;
+  font-optical-sizing: auto;  
+  font-weight: 400;            
+  font-style: normal;          
+}
+h3{
+    font-family:"Roboto" !important;
+}
 h4 {
     font-family: "Poppins" !important;
     font-weight: bolder;
@@ -24,6 +32,10 @@ h4 {
 h5,
 h6,
 p {
+    font-family: "Bai Jamjuree";
+}
+
+li {
     font-family: "Bai Jamjuree";
 }
 
@@ -44,9 +56,6 @@ td {
     text-align: center;
 }
 
-
-/* Style the first row differently, e.g., with a background color */
-
 tr:first-child {
     background-color: #eee;
 }
@@ -64,9 +73,6 @@ tr:first-child {
 }
 
 
-/* COLOR SYSTEM */
-
-
 /* PRIMARY */
 
 .primary-500 {
@@ -74,7 +80,7 @@ tr:first-child {
 }
 
 .primary-500-bg {
-    background-color: #ffb483 !important;
+    background-color: #c8a3cc3d !important;
 }
 
 
@@ -110,19 +116,11 @@ tr:first-child {
     background-color: #427D9D !important;
 }
 
-.foto-1 {
-    height: 200%;
-}
-
-.grad {
-    background-image: linear-gradient(#164863, #427D9D);
-}
 
 .two-by-four {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    /* Adjust the gap size as needed */
 }
 
 .teks {
@@ -132,3 +130,65 @@ tr:first-child {
 .jumbotron {
     background-attachment: fixed;
   }
+.gap {
+  padding: 200px;
+}
+
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; 
+}
+
+
+.timeline-item {
+  width: 100%;
+  display: flex;
+}
+
+
+.timeline-item.left {
+  justify-content: flex-start;
+  padding: 0 0 0 200px;
+}
+
+.timeline-item.telu{
+    justify-content: flex-start;
+    padding: 0 0 0 250px;
+}
+
+.timeline-item.right {
+  justify-content: flex-end;
+  padding: 0 200px 0 0;
+}
+
+
+.timeline-item .secondary-500-bg {
+  width: 40%; 
+  border-radius: 12px;
+}
+
+.d-flex{
+    gap:300px
+}
+
+.education{
+    padding: 200px 0 300px 0;
+}
+
+.selfintro{
+    padding: 200px 0 200px 0;
+}
+
+.bottom{
+    padding: 200px 0 200px 0;
+}
+
+.bottom2{
+    padding: 200px 0px 0px 0;
+}
+
+.man{
+    padding: 0px 0px 20px 0;
+}
